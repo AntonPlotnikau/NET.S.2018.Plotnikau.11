@@ -1,0 +1,12 @@
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\Providers.deps.json
+E:\training\NET.S.2018.Plotnikau.11\Providers\obj\Debug\netstandard1.4\Providers.csprojResolveAssemblyReference.cache
+E:\training\NET.S.2018.Plotnikau.11\Providers\obj\Debug\netstandard1.4\Providers.csproj.CoreCompileInputs.cache
+E:\training\NET.S.2018.Plotnikau.11\Providers\obj\Debug\netstandard1.4\Providers.AssemblyInfo.cs
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\Providers.dll
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\Providers.pdb
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\BookService.dll
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\NLog.dll
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\BookService.pdb
+E:\training\NET.S.2018.Plotnikau.11\Providers\bin\Debug\netstandard1.4\NLog.xml
+E:\training\NET.S.2018.Plotnikau.11\Providers\obj\Debug\netstandard1.4\Providers.dll
+E:\training\NET.S.2018.Plotnikau.11\Providers\obj\Debug\netstandard1.4\Providers.pdb

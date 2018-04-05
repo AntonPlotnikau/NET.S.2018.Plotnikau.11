@@ -1,0 +1,8 @@
+E:\training\NET.S.2018.Plotnikau.11\BookService\bin\Debug\BookService.dll
+E:\training\NET.S.2018.Plotnikau.11\BookService\bin\Debug\BookService.pdb
+E:\training\NET.S.2018.Plotnikau.11\BookService\bin\Debug\NLog.dll
+E:\training\NET.S.2018.Plotnikau.11\BookService\bin\Debug\NLog.xml
+E:\training\NET.S.2018.Plotnikau.11\BookService\obj\Debug\BookService.csprojResolveAssemblyReference.cache
+E:\training\NET.S.2018.Plotnikau.11\BookService\obj\Debug\BookService.csproj.CoreCompileInputs.cache
+E:\training\NET.S.2018.Plotnikau.11\BookService\obj\Debug\BookService.dll
+E:\training\NET.S.2018.Plotnikau.11\BookService\obj\Debug\BookService.pdb
