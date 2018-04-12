@@ -9,3 +9,14 @@ E:\training\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.csprojResolveAssembl
 E:\training\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.csproj.CoreCompileInputs.cache
 E:\training\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.exe
 E:\training\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.pdb
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\BookUI.exe.config
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\BookUI.exe
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\BookUI.pdb
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\BookService.dll
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\NLog.dll
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\BookService.pdb
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\bin\Debug\NLog.xml
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.csproj.CoreCompileInputs.cache
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.exe
+E:\Task2\NET.S.2018.Plotnikau.11\BookUI\obj\Debug\BookUI.pdb

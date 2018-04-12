@@ -77,7 +77,7 @@ namespace BookService
         #region Properties
 
         /// <summary>
-        /// Gets or sets the unique identifier of the book.
+        /// Gets the unique identifier of the book.
         /// </summary>
         /// <value>
         /// The unique identifier of the book.
@@ -87,7 +87,7 @@ namespace BookService
         {
             get => this.isbn;
 
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -99,7 +99,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the name of the author.
+        /// Gets the name of the author.
         /// </summary>
         /// <value>
         /// The name of the author.
@@ -109,7 +109,7 @@ namespace BookService
         {
             get => this.authorName;
 
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -121,7 +121,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the title.
+        /// Gets the title.
         /// </summary>
         /// <value>
         /// The title.
@@ -131,7 +131,7 @@ namespace BookService
         {
             get => this.title;
 
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -143,7 +143,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the publisher.
+        /// Gets the publisher.
         /// </summary>
         /// <value>
         /// The publisher.
@@ -153,7 +153,7 @@ namespace BookService
         {
             get => this.publisher;
 
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -165,7 +165,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the year.
+        /// Gets the year.
         /// </summary>
         /// <value>
         /// The year.
@@ -175,7 +175,7 @@ namespace BookService
         {
             get => this.year;
 
-            set
+            private set
             {
                 if (value < 0 || value > DateTime.Now.Year)
                 {
@@ -187,7 +187,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the number of pages.
+        /// Gets the number of pages.
         /// </summary>
         /// <value>
         /// The number of pages.
@@ -197,7 +197,7 @@ namespace BookService
         {
             get => this.numberOfPages;
 
-            set
+            private set
             {
                 if (value < 1)
                 {
@@ -209,7 +209,7 @@ namespace BookService
         }
 
         /// <summary>
-        /// Gets or sets the price.
+        /// Gets the price.
         /// </summary>
         /// <value>
         /// The price.
@@ -219,7 +219,7 @@ namespace BookService
         {
             get => this.price;
 
-            set
+            private set
             {
                 if (value <= 0)
                 {
@@ -340,7 +340,7 @@ namespace BookService
                 return false;
             }
 
-            if (this.AuthorName == other.AuthorName && this.Title == other.Title)
+            if (this.ISBN == other.ISBN && this.AuthorName == other.AuthorName && this.Title == other.Title && this.Publisher == other.Publisher && this.NumberOfPages == other.NumberOfPages && this.Year == other.Year) 
             {
                 return true;
             }
@@ -422,7 +422,7 @@ namespace BookService
         /// </returns>
         public override int GetHashCode()
         {
-            return this.ISBN.GetHashCode();
+            return this.ISBN.GetHashCode() * this.Price.GetHashCode() ^ this.AuthorName.GetHashCode();
         }
         #endregion
     }

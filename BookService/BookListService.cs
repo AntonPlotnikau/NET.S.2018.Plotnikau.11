@@ -32,7 +32,7 @@ namespace BookService
         /// or
         /// logger is null
         /// </exception>
-        public BookListService(List<Book> list, ILogger logger)
+        public BookListService(IEnumerable<Book> list, ILogger logger)
         {
             if (list == null)
             {

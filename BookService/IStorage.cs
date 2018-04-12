@@ -17,6 +17,6 @@ namespace BookService
         /// Saves the specified list to storage.
         /// </summary>
         /// <param name="list">The list.</param>
-        void Save(List<Book> list);
+        void Save(IEnumerable<Book> list);
     }
 }

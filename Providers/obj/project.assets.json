@@ -3726,11 +3726,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\training\\NET.S.2018.Plotnikau.11\\Providers\\Providers.csproj",
+      "projectUniqueName": "E:\\Task2\\NET.S.2018.Plotnikau.11\\Providers\\Providers.csproj",
       "projectName": "Providers",
-      "projectPath": "E:\\training\\NET.S.2018.Plotnikau.11\\Providers\\Providers.csproj",
+      "projectPath": "E:\\Task2\\NET.S.2018.Plotnikau.11\\Providers\\Providers.csproj",
       "packagesPath": "C:\\Users\\ANTON\\.nuget\\packages\\",
-      "outputPath": "E:\\training\\NET.S.2018.Plotnikau.11\\Providers\\obj\\",
+      "outputPath": "E:\\Task2\\NET.S.2018.Plotnikau.11\\Providers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ANTON\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3746,8 +3746,8 @@
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {
-            "E:\\training\\NET.S.2018.Plotnikau.11\\BookService\\BookService.csproj": {
-              "projectPath": "E:\\training\\NET.S.2018.Plotnikau.11\\BookService\\BookService.csproj"
+            "E:\\Task2\\NET.S.2018.Plotnikau.11\\BookService\\BookService.csproj": {
+              "projectPath": "E:\\Task2\\NET.S.2018.Plotnikau.11\\BookService\\BookService.csproj"
             }
           }
         }

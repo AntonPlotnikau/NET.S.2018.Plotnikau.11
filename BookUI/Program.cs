@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using BookService;
 
 namespace BookUI
@@ -7,7 +8,7 @@ namespace BookUI
     {
         static void Main(string[] args)
         {
-            var storage = new BookListStorage(@"E:\training\NET.S.2018.Plotnikau.11\test.txt");
+            var storage = new BookListStorage(ConfigurationManager.AppSettings["destinationFiePath"]);
             var service = new BookListService(new NLogger(nameof(BookListService)));
             Book book = new Book("978-0-7356-6745-7", "Troelsen", "For beginners", "Microsoft Press", 2010, 813, 9.99);
 

@@ -56,7 +56,7 @@ namespace BookService
         /// </summary>
         /// <param name="list">The list.</param>
         /// <exception cref="ArgumentNullException">list is null</exception>
-        public void Save(List<Book> list)
+        public void Save(IEnumerable<Book> list)
         {
             if (list == null)
             {
